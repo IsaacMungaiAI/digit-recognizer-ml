@@ -43,10 +43,7 @@ if st.button("Predict"):
         img_array = gaussian_filter(img_array, 0.5)
         img_array[img_array < 1.0] = 0.0
 
-        # Visual debug
-        st.image(img_array, caption="Preprocessed Input", width=150, clamp=True)
-        st.text("Pixel values:")
-        st.text(np.round(img_array, 1))
+
 
         # Flatten and predict
         img_flat = img_array.flatten().reshape(1, -1)
