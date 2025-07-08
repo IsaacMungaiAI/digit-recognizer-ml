@@ -1,0 +1,46 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Streamlit config and secrets
+.streamlit/
+.streamlit/config.toml
+.streamlit/secrets.toml
+
+# Model files
+*.pkl
+*.joblib
+
+# Jupyter notebook metadata noise
+*.nbconvert.ipynb
+
+# VS Code settings (optional)
+.vscode/
+
+# macOS hidden files
+.DS_Store
+
+# Python virtual environments
+venv/
+env/
+.venv/
+*.env
+
+# Pip environment metadata
+*.egg-info/
+pip-log.txt
+
+# Cache and logs
+*.log
+.cache/
+*.sqlite3
+*.db
+
+# OS-generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
